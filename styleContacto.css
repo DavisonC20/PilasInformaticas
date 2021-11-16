@@ -7,12 +7,14 @@ body{
 }
 main .portada2 {
     width: 100%;
+    height: 600px;
     color: white;
 }
 .portada2 #imagePortada {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 550px;
+    filter: brightness(40%);
 }
 
  .portada2 .infoPortada{
@@ -21,3 +23,85 @@ main .portada2 {
      bottom: 400px;
      z-index: 2;
  }
+ .portada2 .infoPortada h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 2px #5DCCD6;
+    
+}
+.portada2 .infoPortada h3 {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.infoMain{
+    color: white;
+    text-align: center;
+    padding: 0px 90px 0px 90px;
+    font-size: 18px;
+    
+}
+.infoContact {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.infoContact #formContact #inp {
+    display: flex;
+    width: auto;
+    height: 30px;
+    margin: 0px 0px 70px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    border-radius: 18px;
+    padding-left: 2px;
+    color: white;
+}
+.infoContact #formContact #yourmessage {
+    height: 60px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    background:none;
+    border: none;
+}
+.infoContact #formContact   {
+    text-align: left;
+    
+    
+}
+.infoContact #formContact span {
+    color: #5DCCD6;
+    cursor: pointer;
+}
+.infoContact #formContact button {
+    border-style: none;
+    margin-top: 40px;
+    width: 205px;
+    border: 10px #5DCCD6;
+    border-radius: 12px;
+    background-color: #5DCCD6;
+    color: black;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.infoContact #formContact button:hover {
+    background-color: white;
+}
+ .infoMap  {
+    border: solid 4px #5DCCD6;
+    border-radius: 40px;
+    
+}
+.infoMap iframe {
+    border-radius: 40px;
+    height: 100%;
+}
